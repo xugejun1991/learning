@@ -30,7 +30,7 @@ public class StringMessageConsumer extends MQListener<MQMessage<String>> {
     }
 
     @RabbitListener(bindings = @QueueBinding(
-            value = @Queue(value = "lili", durable = "true"),
+            value = @Queue(value = "test01", durable = "true"),
             exchange = @Exchange(value = "A", type = ExchangeTypes.TOPIC,
                     durable = "true"),
             key = "a"

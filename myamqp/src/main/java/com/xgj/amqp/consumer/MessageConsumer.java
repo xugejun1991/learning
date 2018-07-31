@@ -29,7 +29,7 @@ public class MessageConsumer extends MQListener<MQMessage<User>> {
         super("X");
     }
 
-    @RabbitListener(queues = "lili", containerFactory = "rabbitListenerContainerFactory")
+    @RabbitListener(queues = "test01", containerFactory = "rabbitListenerContainerFactory")
     @RabbitHandler
     @Override
     public void handlerMessage(MQMessage<User> content) {

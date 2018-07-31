@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ThreadFactoryDemo/ThreadFactoryDemo.iml" filepath="$PROJECT_DIR$/ThreadFactoryDemo/ThreadFactoryDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoid/autoid.iml" filepath="$PROJECT_DIR$/autoid/autoid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/myamqp/myamqp.iml" filepath="$PROJECT_DIR$/myamqp/myamqp.iml" />
     </modules>

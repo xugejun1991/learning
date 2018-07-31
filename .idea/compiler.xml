@@ -8,12 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="autoid" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="learning" />
         <module name="myamqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autoid" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="learning" target="1.7" />
       <module name="myamqp" target="1.8" />
     </bytecodeTargetLevel>
