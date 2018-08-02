@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExcutorsDemo/ExcutorsDemo.iml" filepath="$PROJECT_DIR$/ExcutorsDemo/ExcutorsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExecutorsDemo/ExecutorsDemo.iml" filepath="$PROJECT_DIR$/ExecutorsDemo/ExecutorsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadFactoryDemo/ThreadFactoryDemo.iml" filepath="$PROJECT_DIR$/ThreadFactoryDemo/ThreadFactoryDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/WaitAndNotifyDemo/WaitAndNotifyDemo.iml" filepath="$PROJECT_DIR$/WaitAndNotifyDemo/WaitAndNotifyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoid/autoid.iml" filepath="$PROJECT_DIR$/autoid/autoid.iml" />
