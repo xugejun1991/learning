@@ -14,8 +14,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.*;
 
 /**
  * All rights Reserved, Designed By www.freemud.cn
@@ -60,7 +59,13 @@ public class Test {
         personList.add(new Person("tom2", 30));
         //groupingBy 用于将数据分组，最终返回一个 Map 类型,Person::getAge 决定 Map 的键（Integer 类型），list 类型决定 Map 的值（List<Person> 类型）
         Map<Integer, List<Person>> collect = personList.stream().collect(groupingBy(Person::getId));
+//        Map<Integer, Map<T, List<Person>>> map = list.stream().collect(groupingBy(Person::getId, groupBy(...)));
+        Map<Integer, Integer> map = personList.stream().collect(groupingBy(Person::getId, summingInt(Person::getId)));
         System.out.println(collect);
+
+        //分区与分组的区别在于，分区是按照 true 和 false 来分的，因此partitioningBy 接受的参数的 lambda 也是 T -> boolean
+        Map<Boolean, List<Person>> map2 = personList.stream().collect(partitioningBy(p -> p.getId() <=20));
+        System.out.println(map2);
 
 
     }
