@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d33d40-a033-4d40-b52b-7bf018e90aae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/IdUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoid/src/main/resources/META-INF/spring.factories" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="03d33d40-a033-4d40-b52b-7bf018e90aae" name="Default" comment="sweep">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreaExecute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreasApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/HttpUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/controller/AreaController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/mapper/AreaMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/model/Area.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/areas/src/main/resources/mapping/AreaMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_15_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_15_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_16_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_16_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_5_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_5_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_4_5_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_4_5_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_5_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_5_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_5_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_5_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_4_5_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_4_5_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExecutorsDemo/src/main/java/ScheduledThreadPoolExecutorDemo.java" afterPath="$PROJECT_DIR$/ExecutorsDemo/src/main/java/ScheduledThreadPoolExecutorDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StreamDemo/src/main/java/test/Test.java" afterPath="$PROJECT_DIR$/StreamDemo/src/main/java/test/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning.iml" afterPath="$PROJECT_DIR$/learning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +53,7 @@
     <ignored path="$PROJECT_DIR$/autoid/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
     <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/areas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,23 +69,132 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConfigClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/xgj/demo/ConfigClientApplication.java">
+      <file leaf-file-name="AreaExecute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreaExecute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="1138">
+              <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/controller/AreaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1286#1302#0" expanded="true" />
+                <element signature="e#1502#1518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreasApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreasApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAmqpApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyAmqpApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="-910">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3155#3170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringApplication.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="e#4945#4946#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/resources/mapping/AreaMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <marker date="1533715581366" expanded="true" signature="248:317" ph="insert into areas... " />
+                <marker date="1533715581366" expanded="true" signature="248:418" ph="insert into areas... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/mapper/AreaMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Area.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/model/Area.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="27" />
+              <folding>
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +203,8 @@
       <file leaf-file-name="RepairTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/RepairTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="71">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -64,8 +213,28 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="305">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StreamDemo/src/main/java/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StreamDemo/src/main/java/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -74,8 +243,8 @@
       <file leaf-file-name="Washroom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Washroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -84,80 +253,9 @@
       <file leaf-file-name="ShitTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/ShitTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="107">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="215" column="29" lean-forward="false" selection-start-line="215" selection-start-column="29" selection-end-line="215" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="1189" column="11" lean-forward="false" selection-start-line="1189" selection-start-column="11" selection-end-line="1189" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="70" column="64" lean-forward="false" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="259" column="31" lean-forward="false" selection-start-line="259" selection-start-column="31" selection-end-line="259" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExecutorsDemo/src/main/java/MyTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtendThreadPoolDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExecutorsDemo/src/main/java/ExtendThreadPoolDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-              <folding>
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -165,20 +263,8 @@
       <file leaf-file-name="ScheduledThreadPoolExecutorDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExecutorsDemo/src/main/java/ScheduledThreadPoolExecutorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="308">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -187,66 +273,9 @@
       <file leaf-file-name="IdUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/IdUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="327">
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="e#592#593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduledThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="100" column="11" lean-forward="false" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnvironmentRepositoryConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="94" column="73" lean-forward="false" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnableConfigServer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/EnableConfigServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#1209#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -263,21 +292,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>classMapper</find>
-      <find>spring</find>
-      <find>class</find>
-      <find>RejectedExecutionHandler</find>
-      <find>ConfigurableApplicationContext</find>
-      <find>run</find>
-      <find>applyInitializers</find>
-      <find>ThreadPoolExecutor</find>
-      <find>a</find>
-      <find>ac</find>
-      <find>act</find>
-      <find>actu</find>
-      <find>jsonobject</find>
-      <find>scheduleWithFixedDelay</find>
-      <find>scheduleAtFixedDelay</find>
+      <find>java</find>
+      <find>java.</find>
+      <find>java.u</find>
+      <find>java.ut</find>
+      <find>java.uti</find>
+      <find>java.util</find>
+      <find>java.util.</find>
+      <find>java.util.fu</find>
+      <find>java.util.fun</find>
+      <find>java.util.func</find>
+      <find>java.util.funct</find>
+      <find>java.util.functi</find>
+      <find>java.util.function</find>
+      <find>collec</find>
+      <find>add</find>
+      <find>arraylis</find>
+      <find>threshold</find>
+      <find>LoadBalanced</find>
+      <find>DEFAULT_CAPACITY</find>
+      <find>DEFAULT_INITIAL_CAPACITY</find>
+      <find>@LoadBalanced</find>
+      <find>spring.rabbitmq.host</find>
+      <find>host</find>
+      <find>RabbitProperties</find>
+      <find>rabbitProperties</find>
+      <find>rabbitpro</find>
+      <find>properties</find>
+      <find>rabbitConnectionFactory</find>
+      <find>super</find>
+      <find>RabbitConnectionFactoryBean</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -291,35 +335,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/dao/AutoIdUtil.java" />
-        <option value="$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/dao/AutoIdDao.java" />
-        <option value="$PROJECT_DIR$/ThreadFactoryDemo/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/Header.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MQMessage.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MQAction.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MessageVersion.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/AbstractMQListener.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MQListener.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/RabbitMQFastJsonConverter.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/TestMQConfig.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/converter/FastJsonMessageConverter.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/provider/MessageProvider.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MQService.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQMessage.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/converter/RabbitMQFastJsonConverter.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/messageconverter/RabbitMQFastJsonConverter.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/model/User.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/consumer/MessageConsumer.java" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/consumer/StringMessageConsumer.java" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/java/com/xgj/demo/controller/EchoController.java" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/java/com/xgj/demo/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/MQConfig.java" />
         <option value="$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Washroom.java" />
         <option value="$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/ShitTask.java" />
@@ -331,7 +346,6 @@
         <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/ImportAutoConfigurationImportSelector.java" />
         <option value="$PROJECT_DIR$/myamqp/pom.xml" />
         <option value="$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/myamqp/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/Config.java" />
         <option value="$PROJECT_DIR$/autoid/src/main/resources/META-INF/spring.factories" />
@@ -342,6 +356,36 @@
         <option value="$PROJECT_DIR$/ExcutorsDemo/src/main/java/ScheduledThreadPoolExecutorDemo.java" />
         <option value="$PROJECT_DIR$/ExecutorsDemo/src/main/java/ExtendThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/StreamDemo/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/StreamDemo/src/main/java/data.txt" />
+        <option value="$PROJECT_DIR$/StreamDemo/src/main/java/model/Person.java" />
+        <option value="$PROJECT_DIR$/StreamDemo/src/main/java/test/Test.java" />
+        <option value="$PROJECT_DIR$/ThreadFactoryDemo/src/main/java/LongTimeTask.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageConverter.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/SimpleRabbitListenerContainerFactoryConfigurer.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAnnotationDrivenConfiguration.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/client/ClientHttpRequestFactory.java" />
+        <option value="$PROJECT_DIR$/Areas/src/main/java/AreasDataExecute.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/mapper/AccountMapper.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/model/Area.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/mapper/AreaMapper.java" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/com/alibaba/fastjson/1.2.15/fastjson-1.2.15.jar!/com/alibaba/fastjson/JSONArray.class" />
+        <option value="$PROJECT_DIR$/ExecutorsDemo/src/main/java/ScheduledThreadPoolExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreaExecute.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreasApplication.java" />
+        <option value="$PROJECT_DIR$/areas/pom.xml" />
+        <option value="D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.13.RELEASE/spring-boot-1.5.13.RELEASE.jar!/org/springframework/boot/SpringApplication.class" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/areas/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/controller/AreaController.java" />
+        <option value="$PROJECT_DIR$/areas/src/main/resources/mapping/AreaMapper.xml" />
       </list>
     </option>
   </component>
@@ -366,6 +410,30 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="learning" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="learning" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -430,8 +498,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -454,11 +521,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" />
+              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.13.RELEASE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-autoconfigure-1.5.9.RELEASE.jar" />
+              <option name="myItemId" value="spring-web-4.3.13.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,33 +547,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" />
+              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.13.RELEASE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-autoconfigure-1.5.9.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-actuator-1.5.9.RELEASE.jar" />
+              <option name="myItemId" value="spring-web-4.3.13.RELEASE.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -510,15 +563,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actuate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trace" />
+              <option name="myItemId" value="http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,11 +577,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE" />
+              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.13.RELEASE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-actuator-1.5.9.RELEASE.jar" />
+              <option name="myItemId" value="spring-web-4.3.13.RELEASE.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -548,11 +593,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boot" />
+              <option name="myItemId" value="http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actuate" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,11 +611,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE" />
+              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.13.RELEASE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-actuator-1.5.9.RELEASE.jar" />
+              <option name="myItemId" value="spring-web-4.3.13.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework.amqp:spring-rabbit:1.7.4.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-rabbit-1.7.4.RELEASE.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -582,15 +645,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boot" />
+              <option name="myItemId" value="amqp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actuate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="endpoint" />
+              <option name="myItemId" value="rabbit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,11 +663,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE" />
+              <option name="myItemId" value="Maven: org.springframework.amqp:spring-rabbit:1.7.4.RELEASE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-actuator-1.5.9.RELEASE.jar" />
+              <option name="myItemId" value="spring-rabbit-1.7.4.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amqp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework.amqp:spring-rabbit:1.7.4.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-rabbit-1.7.4.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.rabbitmq:amqp-client:4.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amqp-client-4.0.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.rabbitmq:amqp-client:4.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amqp-client-4.0.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.rabbitmq:amqp-client:4.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amqp-client-4.0.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rabbitmq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,6 +790,226 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaitAndNotifyDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaitAndNotifyDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadFactoryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadFactoryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExecutorsDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExecutorsDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,40 +1064,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -745,6 +1102,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -790,31 +1231,375 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="areas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../codes/xiaomage-space/VIP课/microservices/source/microservices-project" />
-    <property name="SearchEverywhereHistoryKey" value="ThreadPoolExecutor &#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;executorse&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/AbstractExecutorService.java&#10;executors&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/Executors.java&#10;@Enableconfigserver&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.EnableConfigServer&#10;EnvironmentRepository &#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.EnvironmentRepository&#10;EndpointHandlerMapping &#9;PSI&#9;JAVA://org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping&#10;TraceEndp&#9;PSI&#9;JAVA://org.springframework.boot.actuate.endpoint.TraceEndpoint&#10;TraceRepository&#9;PSI&#9;JAVA://org.springframework.boot.actuate.trace.TraceRepository&#10;@configuration&#9;PSI&#9;JAVA://org.springframework.context.annotation.Configuration&#10;@enableautoconfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;ConfigurableApplicationContext &#9;PSI&#9;JAVA://org.springframework.context.ConfigurableApplicationContext&#10;springapplication&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java&#10;ApplicationContextInitializer&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationContextInitializer.java&#10;org.springframework.context.ApplicationContextInitializer&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContextInitializer&#10;ConfigurableApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.ConfigurableApplicationContext&#10;springboota&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;@enableautoconfi&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;ExecutorService &#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;callable&#9;PSI&#9;JAVA://java.util.concurrent.Callable&#10;runnab&#9;PSI&#9;JAVA://java.lang.Runnable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="Reentrant&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;Channe&#9;PSI&#9;JAVA://com.rabbitmq.client.Channel&#10;propertysourcelocator&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-context/1.3.0.RELEASE/spring-cloud-context-1.3.0.RELEASE.jar!/org/springframework/cloud/bootstrap/config/PropertySourceLocator.class&#10;propertySourceLoca&#9;PSI&#9;JAVA://org.springframework.cloud.bootstrap.config.PropertySourceLocator&#10;propertysourcelocatio&#9;PSI&#9;JAVA://org.springframework.test.context.MergedContextConfiguration#propertySourceLocations&#10;clientrequestfac&#9;PSI&#9;JAVA://org.springframework.http.client.ClientHttpRequestFactory&#10;rabbitproperties&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java&#10;com.rabbitmq.client.ConnectionFactory&#9;PSI&#9;JAVA://com.rabbitmq.client.ConnectionFactory&#10;org.springframework.boot.autoconfigure.amqp.RabbitProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.amqp.RabbitProperties&#10;abstrac&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/AbstractConnectionFactory.java&#10;abstractHttpme&#9;PSI&#9;JAVA://org.springframework.http.converter.AbstractHttpMessageConverter&#10;restTemplate&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java&#10;LoadBalancerClient&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java&#10;@LoadBa&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalanced&#10;LoadBalancerInterceptor&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java&#10;RestTemplate&#9;PSI&#9;JAVA://org.springframework.web.client.RestTemplate&#10;loadBalancerClient&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerClient&#10;ZoneAv&#9;PSI&#9;JAVA://com.netflix.loadbalancer.ZoneAvoidanceRule&#10;abstractloadbalanceru&#9;PSI&#9;JAVA://com.netflix.loadbalancer.AbstractLoadBalancerRule&#10;IRu&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule&#10;@LoadBalance&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalanced&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Arraylis&#9;PSI&#9;JAVA://java.util.ArrayList&#10;com.mysql.jdbc.Driver&#9;PSI&#9;JAVA://com.mysql.jdbc.Driver&#10;copyonw&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;intstrea&#9;PSI&#9;JAVA://java.util.stream.IntStream&#10;Strea&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/Stream.java&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;optiona&#9;PSI&#9;JAVA://java.util.Optional&#10;java.util.stream&#9;PSI&#9;JAVA://java.util.stream.Stream&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;ThreadPoolExecutor &#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;executorse&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/AbstractExecutorService.java&#10;executors&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/Executors.java&#10;@Enableconfigserver&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.EnableConfigServer&#10;EnvironmentRepository &#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.EnvironmentRepository&#10;EndpointHandlerMapping &#9;PSI&#9;JAVA://org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping&#10;TraceEndp&#9;PSI&#9;JAVA://org.springframework.boot.actuate.endpoint.TraceEndpoint&#10;TraceRepository&#9;PSI&#9;JAVA://org.springframework.boot.actuate.trace.TraceRepository&#10;@configuration&#9;PSI&#9;JAVA://org.springframework.context.annotation.Configuration&#10;@enableautoconfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;ConfigurableApplicationContext &#9;PSI&#9;JAVA://org.springframework.context.ConfigurableApplicationContext&#10;springapplication&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java&#10;ApplicationContextInitializer&#9;FILE&#9;jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationContextInitializer.java&#10;org.springframework.context.ApplicationContextInitializer&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContextInitializer&#10;ConfigurableApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.ConfigurableApplicationContext&#10;springboota&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;@enableautoconfi&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;ExecutorService &#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28735632" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\practice\demos\learning\StreamDemo\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xgj.amqp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xgj.demo.mapper" />
       <recent name="main.java" />
       <recent name="com.xgj.amqp.consumer" />
       <recent name="com.xgj.amqp.converter" />
       <recent name="com.xgj.amqp.config" />
-      <recent name="com.xgj.amqp.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\practice\demos\learning\areas\src\main\resources\mapping" />
       <recent name="D:\practice\demos\learning" />
       <recent name="D:\practice\demos\learning\ThreadFactoryDemo\src\main\java" />
       <recent name="D:\practice\demos\learning\autoid\src\main\resources" />
@@ -832,51 +1617,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScheduledThreadPoolExecutorDemo">
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.java.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WaitAndNotifyDemo" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.java.MyTask" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ExcutorsDemo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AreasApplication">
     <configuration default="false" name="ScheduledThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.java.*" />
+          <option name="PATTERN" value="main.java.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -889,7 +1634,47 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ExcutorsDemo" />
+      <module name="ExecutorsDemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.test.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StreamDemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AreaExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xgj.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.xgj.demo.AreaExecute" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="areas" />
       <envs />
       <method />
     </configuration>
@@ -1308,20 +2093,28 @@
       <envs />
       <method />
     </configuration>
-    <list size="7">
+    <configuration default="false" name="AreasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xgj.demo.AreasApplication" />
+      <module name="areas" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.MyamqpApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.AutoidApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="5" class="java.lang.String" itemvalue="Application.MyTask" />
-      <item index="6" class="java.lang.String" itemvalue="Application.ScheduledThreadPoolExecutorDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ScheduledThreadPoolExecutorDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.AreasApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Application.AreaExecute" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.ScheduledThreadPoolExecutorDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyTask" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AreaExecute" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ScheduledThreadPoolExecutorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -1341,7 +2134,8 @@
       <workItem from="1531188956763" duration="40317000" />
       <workItem from="1531363217564" duration="2498000" />
       <workItem from="1532590393317" duration="21426000" />
-      <workItem from="1533002757879" duration="43788000" />
+      <workItem from="1533002757879" duration="53670000" />
+      <workItem from="1533518856869" duration="43454000" />
     </task>
     <task id="LOCAL-00001" summary="wait/notify 以及 线程池初识">
       <created>1533176935107</created>
@@ -1364,11 +2158,32 @@
       <option name="project" value="LOCAL" />
       <updated>1533194321477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sweep">
+      <created>1533194453081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533194453081</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stream">
+      <created>1533538036957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533538036957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="partitioningBy">
+      <created>1533539100157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533539100157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108029000" />
+    <option name="totallyTimeSpent" value="161365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1376,28 +2191,28 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12739871" sideWeight="0.4943274" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.4943274" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2238806" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2687704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28291622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42608696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42546245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29053319" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2992383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22441365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28726876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56365615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1418,28 +2233,19 @@
     <MESSAGE value="wait/notify 以及 线程池初识" />
     <MESSAGE value="ThreadPoolDemo" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="sweep" />
+    <MESSAGE value="stream" />
+    <MESSAGE value="partitioningBy" />
+    <option name="LAST_COMMIT_MESSAGE" value="partitioningBy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/consumer/MessageConsumer.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/consumer/StringMessageConsumer.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>248</line>
-          <properties />
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
@@ -1452,18 +2258,6 @@
           <line>250</line>
           <properties />
           <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>442</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>443</line>
-          <properties />
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
@@ -1489,8 +2283,170 @@
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/TestMQConfig.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/MQConfig.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/TestMQConfig.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE.jar!/org/springframework/amqp/rabbit/connection/AbstractConnectionFactory.class</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE.jar!/org/springframework/amqp/rabbit/connection/AbstractRoutingConnectionFactory.class</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE.jar!/org/springframework/amqp/rabbit/connection/LocalizedQueueConnectionFactory.class</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/AbstractConnectionFactory.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/LocalizedQueueConnectionFactory.java</url>
+          <line>352</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CachingConnectionFactory.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CachingConnectionFactory.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/SimpleRabbitListenerContainerFactoryConfigurer.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/com/rabbitmq/amqp-client/4.0.3/amqp-client-4.0.3-sources.jar!/com/rabbitmq/client/ConnectionFactory.java</url>
+          <line>218</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java</url>
+          <line>396</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/log4j2/AmqpAppender.java</url>
+          <line>564</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/log4j2/AmqpAppender.java</url>
+          <line>546</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/log4j2/AmqpAppender.java</url>
+          <line>524</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/AbstractRoutingConnectionFactory.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/SimpleRabbitListenerContainerFactoryConfigurer.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/config/AbstractFactoryBean.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CachingConnectionFactory.java</url>
+          <line>230</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/MQConfig.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreaExecute.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1499,473 +2455,534 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/consumer/MessageConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="290">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/TestMQConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="199">
+          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-actuator/1.5.9.RELEASE/spring-boot-actuator-1.5.9.RELEASE-sources.jar!/org/springframework/boot/actuate/trace/TraceRepository.java">
+    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/ChannelProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-actuator/1.5.9.RELEASE/spring-boot-actuator-1.5.9.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/TraceEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot-actuator/1.5.9.RELEASE/spring-boot-actuator-1.5.9.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/mvc/EndpointHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myamqp/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/annotation/AnnotationAwareOrderComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/util/StopWatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="202">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
-            <element signature="e#1714#1724#0" expanded="false" />
-            <element signature="e#2144#2145#0" expanded="false" />
-            <element signature="e#2425#2426#0" expanded="false" />
-            <element signature="e#2444#2445#0" expanded="false" />
+            <element signature="e#0#1384#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
+    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/com/rabbitmq/amqp-client/4.0.3/amqp-client-4.0.3-sources.jar!/com/rabbitmq/client/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="371" column="56" lean-forward="false" selection-start-line="371" selection-start-column="56" selection-end-line="371" selection-end-column="56" />
-          <folding>
-            <element signature="e#15218#15219#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="333" column="89" lean-forward="false" selection-start-line="333" selection-start-column="89" selection-end-line="333" selection-end-column="89" />
-          <folding>
-            <element signature="e#8636#8637#0" expanded="true" />
-            <element signature="e#8662#8663#0" expanded="true" />
-            <element signature="e#14531#14539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoid/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="-996">
+          <caret line="317" column="53" lean-forward="false" selection-start-line="317" selection-start-column="53" selection-end-line="317" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <marker date="1531287978314" expanded="true" signature="999:1035" ph="insert into autoid01... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/messageconverter/FastJsonMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="62" column="3" lean-forward="false" selection-start-line="62" selection-start-column="3" selection-end-line="70" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MessageVersion.java">
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/messageconverter/RabbitMQFastJsonConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="-352">
+          <caret line="40" column="54" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQMessage.java">
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/config/MQConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="309">
+          <caret line="43" column="70" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQService.java">
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="324">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE.jar!/org/springframework/cloud/config/server/environment/EnvironmentRepository.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/deploy.jar!/com/sun/deploy/net/HttpUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="38" />
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentRepository.java">
+    <entry file="file://$PROJECT_DIR$/Areas/src/main/java/AreasDataExecute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="40" column="87" lean-forward="false" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerMvcConfiguration.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="64" column="80" lean-forward="false" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
+        <state relative-caret-position="348">
+          <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/bootstrap/ConfigServerBootstrapConfiguration.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="803" column="4" lean-forward="false" selection-start-line="803" selection-start-column="4" selection-end-line="803" selection-end-column="4" />
           <folding>
-            <element signature="e#0#3135#0" expanded="false" />
-            <element signature="imports" expanded="false" />
+            <element signature="e#33990#33991#0" expanded="false" />
+            <element signature="e#34045#34046#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerHealthIndicator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="200">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="67" column="12" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentEncryptorEnvironmentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentRepositoryPropertySourceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/resource/ResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/CompositeConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="e#2218#2219#0" expanded="false" />
-            <element signature="e#2254#2255#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4364">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/EnableConfigServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1209#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="94" column="73" lean-forward="false" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Washroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/RepairTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/ShitTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/xgj/demo/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#334#335#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/xgj/demo/ConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyAmqpApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="100" column="11" lean-forward="false" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="215" column="29" lean-forward="false" selection-start-line="215" selection-start-column="29" selection-end-line="215" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/org/apache/tomcat/util/threads/ThreadPoolExecutor.class">
+    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/com/alibaba/fastjson/1.2.15/fastjson-1.2.15.jar!/com/alibaba/fastjson/JSONArray.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="70" column="64" lean-forward="false" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="259" column="31" lean-forward="false" selection-start-line="259" selection-start-column="31" selection-end-line="259" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.ThreadPoolExecutor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.ThreadPoolExecutor</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.concurrent.AbstractExecutorService</node>
-            <node x="" y="">java.util.concurrent.Executor</node>
-            <node x="" y="">java.util.concurrent.ThreadPoolExecutor</node>
-            <node x="" y="">java.util.concurrent.ExecutorService</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="93.5" y="135.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExecutorsDemo/src/main/java/MyTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1189" column="11" lean-forward="false" selection-start-line="1189" selection-start-column="11" selection-end-line="1189" selection-end-column="11" />
+        <state relative-caret-position="-127">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExecutorsDemo/src/main/java/ExtendThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        <state relative-caret-position="-179">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MQAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyMQPlat/MessageVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/MyAmqpApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/dao/AutoIdUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/dao/AutoIdDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
+            <marker date="1531303865399" expanded="true" signature="725:763" ph="insert into missingValue... " />
+            <marker date="1531303865399" expanded="true" signature="801:879" ph="update missi... " />
+            <marker date="1531303865399" expanded="true" signature="855:878" ph="select last_... " />
+            <marker date="1531303865399" expanded="true" signature="959:982" ph="select LAST_... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/utils/SpringBeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myamqp/src/main/java/com/xgj/amqp/provider/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/task/AutoIdTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1015#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/AutoidApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadFactoryDemo/src/main/java/MyThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadFactoryDemo/src/main/java/LongTimeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadFactoryDemo/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Washroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/RepairTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/ShitTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WaitAndNotifyDemo/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamDemo/src/main/java/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamDemo/src/main/java/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExecutorsDemo/src/main/java/ScheduledThreadPoolExecutorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/IdUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="327">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="e#4945#4946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3155#3170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/mapper/AreaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoid/src/main/java/com/xgj/demo/model/Config.java">
+    <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreaExecute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="1138">
+          <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
           <folding>
-            <element signature="e#592#593#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/AreasApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="220">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/model/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/utils/apache-maven-3.3.9/xgj-mvnRepo-idea/org/springframework/boot/spring-boot/1.5.13.RELEASE/spring-boot-1.5.13.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="196" column="9" lean-forward="true" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/src/main/resources/mapping/AreaMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1533715581366" expanded="true" signature="248:317" ph="insert into areas... " />
+            <marker date="1533715581366" expanded="true" signature="248:418" ph="insert into areas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas/src/main/java/com/xgj/demo/controller/AreaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1286#1302#0" expanded="true" />
+            <element signature="e#1502#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StreamDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28735632" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

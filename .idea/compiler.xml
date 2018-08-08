@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="areas" />
         <module name="autoid" />
         <module name="config-client" />
         <module name="config-server" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="areas" target="1.8" />
       <module name="autoid" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />

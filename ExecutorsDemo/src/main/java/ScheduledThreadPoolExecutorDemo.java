@@ -36,16 +36,14 @@ public class ScheduledThreadPoolExecutorDemo {
 //        }, 0, 6, TimeUnit.SECONDS);// initialDelay（初始延迟） 表示第一次延时时间 ; period 表示间隔时间
 
 
-        service4.scheduleWithFixedDelay(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(4000);
-                    System.out.println(System.currentTimeMillis() / 1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }// initialDelay（初始延迟） 表示延时时间；delay + 任务执行时间 = 等于间隔时间 period
+        // initialDelay（初始延迟） 表示延时时间；delay + 任务执行时间 = 等于间隔时间 period
+        service4.scheduleWithFixedDelay(() -> {
+            try {
+                Thread.sleep(4000);
+                System.out.println(System.currentTimeMillis() / 1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }, 0, 3, TimeUnit.SECONDS);
 
         // 在给定时间，对任务进行一次调度

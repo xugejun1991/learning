@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xgj.demo.mapper.AreaMapper">
+  <!-- 区域插入 -->
+  <insert id="insertAllArea">
+   insert into areas(id,name,parentid,parentname,areacode,zipcode,depth) values(#{vo.id},#{vo.name},#{vo.parentId},#{vo.parentName},#{vo.areaCode},#{vo.zipCode},#{vo.depth})
+  </insert>
+</mapper>
